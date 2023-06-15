@@ -24,7 +24,14 @@ html,body{
     background-color: #6ab5cc;
 }
 
-#container a{
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    text-transform: capitalize;
+}
+
+.footer a{
     text-decoration: none;
     color: rgb(231, 199, 199);
     font-size: 30px;
