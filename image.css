@@ -26,17 +26,16 @@ html,body{
 
 #images{
     margin-top: 20px;
-    width: 700px;
+    width: 90%;
     height: 500px;
     background-color: yellowgreen;
-    padding: 20px;
+    padding: 120px;
     gap: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     white-space: nowrap;
     overflow-x: auto;
-    overflow-y: hidden;
 }
 
 #images img{
@@ -45,9 +44,11 @@ html,body{
     height: 370px;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     border: 2px solid cyan;
     border-radius: 10px;
     background-color: #a58888;
+    padding-left: 10px;
 }
 
 #images::-webkit-scrollbar{

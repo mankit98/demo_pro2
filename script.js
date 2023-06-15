@@ -51,8 +51,8 @@ gsap.from(".center2 .cards",{
         trigger:"#main2 .center2",
         scroller:"body",
         // markers: true,
-        start: "top 80%",
-        end:"top 60%",
+        start: "top 50%",
+        end:"top 40%",
         scrub:true
     }
     
@@ -63,14 +63,3 @@ gsap.from(".center2 .cards",{
 
 // ------------------------
 
-const nav1 = document.querySelectorAll('nav ul')
-nav1.addEventListener('mouseover',function (){
-    // nav1[2].style.top = 0
-    nav1[2].innerHTML = "You are on Gallery"
-})
-
-
-nav1.addEventListener('mouseout',function(){
-
-    nav1[2].style.display = ''
-})
