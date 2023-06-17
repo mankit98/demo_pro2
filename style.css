@@ -21,6 +21,26 @@ body{
 }
 
 
+/* loading line animation start  */
+#line{
+    width: 100%;
+    height: 3px;
+    background-color: #f61f07;
+    animation: lineanimate 3s linear;
+}
+
+@keyframes lineanimate{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+/* loading line animation end  */
+
+
 #nav{
     display: flex;
     justify-content: space-between;

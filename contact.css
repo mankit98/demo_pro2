@@ -17,23 +17,25 @@ html,body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.897);
 }
 
 #container #stcap{
     padding: 20px;
-    background-color: #6ab5cc;
+    background-color: #2f2626;
+    color: aliceblue;
+    text-transform: uppercase;
 }
 
 .footer{
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    gap: 44px;
     text-transform: capitalize;
 }
 
 .footer a{
     text-decoration: none;
-    color: rgb(231, 199, 199);
+    color: white;
     font-size: 30px;
     background-color: #153579;
     padding: 5px 17px;
@@ -45,13 +47,14 @@ html,body{
 .box{
     height: 500px;
     width: 800px;
-    background-color: #813535;
+    background-color:  #2f2626;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .box p{

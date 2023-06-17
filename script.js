@@ -64,3 +64,10 @@ gsap.from(".center2 .cards",{
 
 // ------------------------
 
+ 
+window.addEventListener("DOMcontentloaded",function () {
+    const flag = 0;
+    const linetop = document.querySelector('#line')
+    linetop.classList.add('animate')
+
+})
