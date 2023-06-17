@@ -109,16 +109,16 @@ ul li:hover{
 
 }
 .center img:nth-child(4){
-    rotate: 30deg;
+    rotate: 25deg;
 }
 .center img:nth-child(5){
     rotate:15deg
 }
 .center img:nth-child(6){
-    rotate:300deg
+    rotate:5deg
 }
 .center img:nth-child(7){
-    rotate:0deg
+    rotate:355deg
 }
 
 .footer ul{

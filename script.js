@@ -44,17 +44,18 @@ gsap.from(".center2 .cards",{
     x:-500,
     scale:20,
     opacity:0,
-    delay:4,
+    delay:19,
     duration:2,
-    rotate:180,
+    rotate:90,
     scrollTrigger:{
         trigger:"#main2 .center2",
         scroller:"body",
         // markers: true,
-        start: "top 50%",
-        end:"top 40%",
+        start: "top 65%",
+        end:"top 30%",
         scrub:true
     }
+
     
 })
 

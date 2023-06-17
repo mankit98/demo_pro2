@@ -18,45 +18,53 @@ html,body{
     width: 100%;
     height: 100%;
     background-color: #7a7777;
-    font-size: 24px;
     color: white;
-    text-transform: uppercase;
-    letter-spacing: 5px;
 }
 
 #images{
-    margin-top: 20px;
-    width: 90%;
-    height: 500px;
-    background-color: yellowgreen;
-    padding: 120px;
-    gap: 10px;
+    height: 80%;
+    width: 80%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    white-space: nowrap;
+    flex-direction: column;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#caption{
+    
+    /* background-color: green; */
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#allimages{
+    gap: 10px;
+    display: flex;
     overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 #images img{
-    
-    width: 90%;
-    height: 370px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 400px;
+    height: 70vh;
+    background-position: cover;
     border: 2px solid cyan;
     border-radius: 10px;
     background-color: #a58888;
-    padding-left: 10px;
 }
 
-#images::-webkit-scrollbar{
+#allimages::-webkit-scrollbar{
     display: none;
 }
 
+
+
 footer a{
-    margin-top: 20px;
+    margin-top: 25px;
     color: aliceblue;
     text-decoration: none;
 }
