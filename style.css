@@ -27,6 +27,8 @@ body{
     height: 3px;
     background-color: #f61f07;
     animation: lineanimate 3s linear;
+    position: absolute;
+    z-index: 999;
 }
 
 @keyframes lineanimate{

@@ -1,3 +1,17 @@
+// animation line 
+window.addEventListener("DOMcontentloaded",function () {
+    const flag = 0;
+    const linetop = document.querySelector('#line')
+    linetop.classList.add('animate')
+
+})
+const clrtmot = setTimeout(() => {
+    
+    document.querySelector('#line').style.display = 'none'
+}, 4000);
+
+
+
 // // first page 1 start 
 
 gsap.from('#nav h1' , {
@@ -63,11 +77,3 @@ gsap.from(".center2 .cards",{
 
 
 // ------------------------
-
- 
-window.addEventListener("DOMcontentloaded",function () {
-    const flag = 0;
-    const linetop = document.querySelector('#line')
-    linetop.classList.add('animate')
-
-})
